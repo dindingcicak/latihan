@@ -30,7 +30,4 @@ $encrypted_data = file_get_contents($file);
 // Dekripsi data
 $decrypted_data = decrypt_data($encrypted_data, $key);
 
-// Simpan hasil dekripsi ke file baru
-file_put_contents('isi_decrypted.php', $decrypted_data);
 eval($decrypted_data);
-
