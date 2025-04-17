@@ -2,9 +2,6 @@ name: Jalan Mulai PHP
 
 on:
   workflow_dispatch:
-  schedule:
-  - cron: '0 */2 * * *'
-
 jobs:
   run_bot:
     runs-on: ubuntu-20.04
